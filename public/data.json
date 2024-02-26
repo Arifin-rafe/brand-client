@@ -1,0 +1,32 @@
+[
+    {
+    "id": 1,
+    "brand_name":"Nike",
+    "image": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/nike-logo-design-template-d57521848b1fedd6a5bc461dbc68573a_screen.jpg?ts=1662231451"
+    },
+    {
+    "id": 2,
+    "brand_name":"H&M",
+    "image": "https://images.unsplash.com/photo-1578983662508-41895226ebfb?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1511"
+    },
+    {
+    "id": 3,
+    "brand_name":"Adidas",
+    "image": "https://footwearnews.com/wp-content/uploads/2022/01/adidas-logo-worth.jpg"
+    },
+    {
+    "id": 4,
+    "brand_name":"Puma",
+    "image": "https://images.unsplash.com/photo-1633523154731-d131470565d7?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1470"
+    },
+    {
+    "id": 5,
+    "brand_name":"Reebok",
+    "image": "https://static.vecteezy.com/system/resources/previews/023/870/345/original/reebok-logo-brand-clothes-with-name-white-symbol-design-icon-abstract-illustration-with-red-background-free-vector.jpg"
+    },
+    {
+    "id": 6,
+    "brand_name":"Gucci",
+    "image": "https://images.unsplash.com/photo-1597500002272-ff7ae453dc51?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1480"
+    }
+]
