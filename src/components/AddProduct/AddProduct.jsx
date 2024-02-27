@@ -19,7 +19,7 @@ const AddProduct = () => {
         console.log(newProduct);
 
         //send to server
-        fetch('http://localhost:5000/products', {
+        fetch('https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/products', {
             method:'POST',
             headers:{
                 'content-type':'application/json'

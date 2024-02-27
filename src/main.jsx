@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Brands></Brands>,
-        loader: () => fetch('http://localhost:5000/brands')
+        loader: () => fetch('https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/brands')
       },
       {
         path: '/addProduct',
@@ -38,7 +38,7 @@ const router = createBrowserRouter([
       {
         path: '/myCart',
         element: <MyCart></MyCart>,
-        loader: () => fetch('http://localhost:5000/cart')
+        loader: () => fetch('https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/cart')
       },
       {
         path: '/addBrand',
@@ -55,17 +55,17 @@ const router = createBrowserRouter([
       {
         path: '/productDetails/:id',
         element: <ProductDetails></ProductDetails>,
-        loader: ({ params }) => fetch(`http://localhost:5000/productDetails/${params.id}`)
+        loader: ({ params }) => fetch(`https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/productDetails/${params.id}`)
       },
       {
         path: '/productsCard/:brandName',
         element: <Products></Products>,
-        loader: ({ params }) => fetch(`http://localhost:5000/products/${params.brandName}`)
+        loader: ({ params }) => fetch(`https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/products/${params.brandName}`)
       },
       {
         path: '/products/:id',
         element: <UpdateProduct></UpdateProduct>,
-        loader: ({ params }) => fetch(`http://localhost:5000/products/${params.id}`)
+        loader: ({ params }) => fetch(`https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/products/${params.id}`)
       }
     ]
   },

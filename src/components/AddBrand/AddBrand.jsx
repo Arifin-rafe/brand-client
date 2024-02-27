@@ -13,7 +13,7 @@ const AddBrand = () => {
         const newBrand = { brandName, image }
         console.log(newBrand);
 
-        fetch(' http://localhost:5000/brands', {
+        fetch(' https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/brands', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
