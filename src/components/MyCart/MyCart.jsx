@@ -21,7 +21,7 @@ const MyCart = () => {
         }).then((result) => {
             if (result.isConfirmed) {
 
-                fetch(`https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/cart/${_id}`,{
+                fetch(`https://brand-server-delta.vercel.app/cart/${_id}`,{
                     method:'DELETE'
 
                 })

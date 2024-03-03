@@ -25,7 +25,7 @@ const UpdateProduct = () => {
         console.log(updateProduct);
 
         //send to server
-        fetch(` https://assignment-brand-10-server-gqtv5eep9-arifin-rafe.vercel.app/products/${_id}`, {
+        fetch(`https://brand-server-delta.vercel.app/products/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

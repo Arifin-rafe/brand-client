@@ -29,28 +29,28 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Brands></Brands>,
-        loader: () => fetch('https://brand-server-hj3n41mgc-arifin-rafe.vercel.app/brands')
+        loader: () => fetch('https://brand-server-delta.vercel.app/brands')
       },
       
       {
         path: '/myCart',
         element: <MyCart></MyCart>,
-        loader: () => fetch('https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/cart')
+        loader: () => fetch('https://brand-server-delta.vercel.app/cart')
       },
       {
         path: '/productDetails/:id',
         element: <ProductDetails></ProductDetails>,
-        loader: ({ params }) => fetch(`https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/productDetails/${params.id}`)
+        loader: ({ params }) => fetch(`https://brand-server-delta.vercel.app/productDetails/${params.id}`)
       },
       {
         path: '/productsCard/:brandName',
         element: <Products></Products>,
-        loader: ({ params }) => fetch(`https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/products/${params.brandName}`)
+        loader: ({ params }) => fetch(`https://brand-server-delta.vercel.app/products/${params.brandName}`)
       },
       {
         path: '/products/:id',
         element: <UpdateProduct></UpdateProduct>,
-        loader: ({ params }) => fetch(`https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/products/${params.id}`)
+        loader: ({ params }) => fetch(`https://brand-server-delta.vercel.app/products/${params.id}`)
       },
       {
         path: '/addBrand',
