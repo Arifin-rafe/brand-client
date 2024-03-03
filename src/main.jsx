@@ -29,28 +29,13 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Brands></Brands>,
-        loader: () => fetch('https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/brands')
+        loader: () => fetch('https://brand-server-hj3n41mgc-arifin-rafe.vercel.app/brands')
       },
-      {
-        path: '/addProduct',
-        element: <PrivateRoute><AddProduct></AddProduct></PrivateRoute>
-      },
+      
       {
         path: '/myCart',
         element: <MyCart></MyCart>,
         loader: () => fetch('https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/cart')
-      },
-      {
-        path: '/addBrand',
-        element: <AddBrand></AddBrand>
-      },
-      {
-        path: '/login',
-        element: <Login></Login>
-      },
-      {
-        path: '/register',
-        element: <Register></Register>
       },
       {
         path: '/productDetails/:id',
@@ -66,7 +51,24 @@ const router = createBrowserRouter([
         path: '/products/:id',
         element: <UpdateProduct></UpdateProduct>,
         loader: ({ params }) => fetch(`https://brand-server-i2zlx5cg3-arifin-rafe.vercel.app/products/${params.id}`)
-      }
+      },
+      {
+        path: '/addBrand',
+        element: <AddBrand></AddBrand>
+      },
+      {
+        path: '/login',
+        element: <Login></Login>
+      },
+      {
+        path: '/register',
+        element: <Register></Register>
+      },
+      
+      {
+        path: '/addProduct',
+        element: <PrivateRoute><AddProduct></AddProduct></PrivateRoute>
+      },
     ]
   },
 ]);
