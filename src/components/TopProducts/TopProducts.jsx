@@ -19,7 +19,7 @@ const TopProducts = () => {
     const [top, setTop] = useState([])
 
     useEffect(() => {
-        fetch('https://brand-server-delta.vercel.app/top')
+        fetch('https://brand-server-eight.vercel.app/top')
             .then(res => res.json())
             .then(data => setTop(data))
     }, [])

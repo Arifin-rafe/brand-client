@@ -13,7 +13,7 @@ const AddBrand = () => {
         const newBrand = { brandName, image }
         console.log(newBrand);
 
-        fetch('https://brand-server-delta.vercel.app/brands', {
+        fetch('https://brand-server-eight.vercel.app/brands', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

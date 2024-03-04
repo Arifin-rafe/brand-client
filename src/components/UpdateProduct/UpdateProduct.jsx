@@ -25,7 +25,7 @@ const UpdateProduct = () => {
         console.log(updateProduct);
 
         //send to server
-        fetch(`https://brand-server-delta.vercel.app/products/${_id}`, {
+        fetch(`https://brand-server-eight.vercel.app/products/${_id}`, {
             method: 'PUT',
             headers: {
                 'content-type': 'application/json'

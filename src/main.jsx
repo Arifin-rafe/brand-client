@@ -29,28 +29,28 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Brands></Brands>,
-        loader: () => fetch('https://brand-server-delta.vercel.app/brands')
+        loader: () => fetch('https://brand-server-eight.vercel.app/brands')
       },
       
       {
         path: '/myCart',
         element: <MyCart></MyCart>,
-        loader: () => fetch('https://brand-server-delta.vercel.app/cart')
+        loader: () => fetch('https://brand-server-eight.vercel.app/cart')
       },
       {
         path: '/productDetails/:id',
         element: <ProductDetails></ProductDetails>,
-        loader: ({ params }) => fetch(`https://brand-server-delta.vercel.app/productDetails/${params.id}`)
+        loader: ({ params }) => fetch(`https://brand-server-eight.vercel.app/productDetails/${params.id}`)
       },
       {
         path: '/productsCard/:brandName',
         element: <Products></Products>,
-        loader: ({ params }) => fetch(`https://brand-server-delta.vercel.app/products/${params.brandName}`)
+        loader: ({ params }) => fetch(`https://brand-server-eight.vercel.app/products/${params.brandName}`)
       },
       {
         path: '/products/:id',
         element: <UpdateProduct></UpdateProduct>,
-        loader: ({ params }) => fetch(`https://brand-server-delta.vercel.app/products/${params.id}`)
+        loader: ({ params }) => fetch(`https://brand-server-eight.vercel.app/${params.id}`)
       },
       {
         path: '/addBrand',

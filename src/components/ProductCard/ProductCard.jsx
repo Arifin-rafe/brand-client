@@ -11,7 +11,7 @@ const ProductCard = ({ product }) => {
 
 
     const handleAddToCart = (product) => {
-        fetch('https://brand-server-delta.vercel.app/cart', {
+        fetch('https://brand-server-eight.vercel.app/cart', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
